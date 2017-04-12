@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="uvc_ros_flow" type="uvc_ros_flow_node" name="uvc_ros_flow" output="screen">
+
+    <param name="test" value="optflow"/>
+
+  </node>
+</launch>
